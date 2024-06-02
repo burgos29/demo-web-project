@@ -31,29 +31,7 @@
       <artifactId>mysql-connector-j</artifactId>
       <version>8.4.0</version>
     </dependency>
-    <dependency>
-      <groupId>com.google.protobuf</groupId>
-      <artifactId>protobuf-java</artifactId>
-      <version>3.25.1</version>
-    </dependency>
   </dependencies>
-
-  <repositories>
-    <repository>
-      <id>central</id>
-      <url>https://repo.maven.apache.org/maven2</url>
-    </repository>
-    <repository>
-        <id>artifactory-release</id>
-        <url>http://13.95.209.62:8081/artifactory/libs-release</url>
-        <releases>
-            <enabled>true</enabled>
-        </releases>
-        <snapshots>
-            <enabled>false</enabled>
-        </snapshots>
-    </repository>
-  </repositories>
   
   <build>
     <finalName>demo-web-project</finalName>
