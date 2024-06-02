@@ -32,20 +32,6 @@
     <artifactId>mysql-connector-j</artifactId>
     <version>8.4.0</version>
     </dependency>
-
-    <dependency>
-    <groupId>com.google.protobuf</groupId>
-    <artifactId>protobuf-java</artifactId>
-    <version>3.25.1</version>
-    </dependency>
-  </dependencies>
-
-  <repositories>
-    <repository>
-      <id>central</id>
-      <url>https://repo.maven.apache.org/maven2</url>
-    </repository>
-  </repositories>
   
   <build>
     <finalName>demo-web-project</finalName>
@@ -53,7 +39,7 @@
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>3.3.2</version>
+          <version>3.1.0</version>
         </plugin>
         <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
         <plugin>
