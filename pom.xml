@@ -46,16 +46,6 @@
       <url>https://repo.maven.apache.org/maven2</url>
     </repository>
     <repository>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <releases>
-            <enabled>true</enabled>
-        </releases>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-    </repository>
-    <repository>
         <id>artifactory-release</id>
         <url>http://13.95.209.62:8081/artifactory/libs-release</url>
         <releases>
